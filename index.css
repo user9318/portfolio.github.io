@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.task{
+    margin: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.taskp{
+    padding-top: 11px;
+    padding-left: auto;
+}
+.taska{
+    font-size: 20px;
+    padding-top: 0px;
+    height: 32px;
+
+}
+.taska:hover{
+    font-size: 22px;
+    transition: 0.3s;
+}
+.portfoliop{
+    padding-top: 7px;
+    font-size: 24px;
+}
+.ul-cont{
+    width: 70%;
+    height: 32px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between ;
+    height: 32px;
+    list-style: none;
+    text-align: center;
+}
+.nav-li{
+    text-align: center;
+    width: auto;
+    padding-top: 10px;
+    
+}
+
+.nav-a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    height: 32px;
+    transition: 0.1s;
+
+}
+.nav-a:hover{
+    font-size: 22px;
+    height: 32px;
+    transition: 0.3s;
+    text-decoration: underline;
+}
